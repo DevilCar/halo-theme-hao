@@ -1,14 +1,14 @@
 apiVersion: theme.halo.run/v1alpha1
 kind: Theme
 metadata:
-  name: theme-hao
-  annotations:
-    "store.halo.run/app-id": "app-MgZJX"
+  name: theme-an
+#  annotations:
+#    "store.halo.run/app-id": "app-MgZJX"
 spec:
-  displayName: Hao
+  displayName: An
   author:
-    name: 程序员小航 & 困困鱼 & Carol
-    website: https://github.com/chengzhongxue
+    name: Terry
+    website: https://github.com/DevilCar
   customTemplates:
     page:
       - name: 友情链接页面模版
@@ -40,11 +40,11 @@ spec:
         screenshot:
         file: new_comment.html
   description: Halo 2.x Theme base on Thymeleaf, Referring to Butterfly and Heo
-  logo: /themes/theme-hao/assets/images/hao-logo.jpg
-  homepage: https://www.halo.run/store/apps/app-MgZJX
-  issues: https://github.com/chengzhongxue/halo-theme-hao/issues
-  repo: https://github.com/chengzhongxue/halo-theme-hao
-  settingName: "theme-hao-setting"
-  configMapName: "theme-hao-configMap"
+  logo: /themes/theme-hao/assets/images/An-logo.jpeg
+#  homepage: https://www.halo.run/store/apps/app-MgZJX
+#  issues: https://github.com/chengzhongxue/halo-theme-hao/issues
+  repo: https://github.com/DevilCar/theme-an
+  settingName: "theme-an-setting"
+  configMapName: "theme-an-configMap"
   version: "1.6.2"
   require: ">=2.20.0"
